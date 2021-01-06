@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    height: 100vh;
     margin: auto auto;
+    height: 100vh;
     background-image: 
         url("images/bg-pattern-top-desktop.svg"),
         url("images/bg-pattern-bottom-desktop.svg");
@@ -90,7 +90,8 @@ body {
     margin-right: 5px;
     position: relative;
     padding: 40px 30px;
-    flex: 1;
+    flex-grow: 1;
+    flex-basis: 350px;
     color: white;
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
@@ -136,4 +137,60 @@ body {
     color: hsl(300, 24%, 96%);
     font-size: 13px;
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 1150px) {
+    .container {
+        height: auto; 
+    }
+
+
+    .container__main__first {
+        margin: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container__main__first__right__rating {
+        position: static;
+        width: 100%;
+    }
+
+    .container__main__second {
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    .container__main__second__comment {
+        position: static;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .container__main__first__left__title {
+        text-align: center;
+    }
+
+    .container__main__first__left__desc {
+        text-align: center;
+    }
+
+    .container__main__first__right {
+        margin-top: 20px;
+    }
+
+    .container__main__first__right__rating {
+        display: block;
+        text-align: center;
+    }
+
+    .container__main__first__right__rating__desc {
+        margin-top: 10px;
+    }
+
+    .container__main__second {
+        margin: 10px;
+    }
+
 }
