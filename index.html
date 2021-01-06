@@ -1,65 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Social proof section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    10,000+ of our users love our products.
+  <title>Frontend Mentor | Social proof section</title>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </body>
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <main class="container__main">
+      <div class="container__main__first">
+        <div class="container__main__first__left">
+          <h1 class="container__main__first__left__title">10,000+ of our users love our products.</h1>
+          <p class="container__main__first__left__desc">
+            We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.
+          </p>
+        </div>
+        <div class="container__main__first__right">
+          <div class="container__main__first__right__rating">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <p class="container__main__first__right__rating__desc">Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="container__main__first__right__rating">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <p class="container__main__first__right__rating__desc">Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="container__main__first__right__rating">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <img src="images/icon-star.svg" alt="Star" class="container__main__first__right__rating__star">
+            <p class="container__main__first__right__rating__desc">Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+      </div>
+      <div class="container__main__second">
+        <div class="container__main__second__comment">
+          <div class="container__main__second__comment__fore">
+            <img class="container__main__second__comment__fore__profile" src="images/image-colton.jpg" alt="">
+            <div class="container__main__second__comment__fore__about">
+              <h2 class="container__main__second__comment__fore__about__name">
+                Colton Smith
+              </h2>
+              <p class="container__main__second__comment__fore__about__role">
+                Verifed Buyer
+              </p>
+            </div>
+          </div>
+          <p class="container__main__second__comment__content">
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </p>
+        </div>
+        <div class="container__main__second__comment">
+          <div class="container__main__second__comment__fore">
+            <img class="container__main__second__comment__fore__profile" src="images/image-irene.jpg" alt="Irene">
+            <div class="container__main__second__comment__fore__about">
+              <h2 class="container__main__second__comment__fore__about__name">
+                Irene Roberts
+              </h2>
+              <p class="container__main__second__comment__fore__about__role">
+                Verifed Buyer
+              </p>
+            </div>
+          </div>
+          <p class="container__main__second__comment__content">
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </div>
+        <div class="container__main__second__comment">
+          <div class="container__main__second__comment__fore">
+            <img class="container__main__second__comment__fore__profile" src="images/image-anne.jpg" alt="Anne">
+            <div class="container__main__second__comment__fore__about">
+              <h2 class="container__main__second__comment__fore__about__name">
+                Anne Wallace
+              </h2>
+              <p class="container__main__second__comment__fore__about__role">
+                Verifed Buyer
+              </p>
+            </div>
+          </div>
+          <p class="container__main__second__comment__content">
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </p>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+
+  <!-- Rated 5 Stars in Reviews
+  Rated 5 Stars in Report Guru
+  Rated 5 Stars in BestTech
+
+  Colton Smith
+  Verified Buyer
+  "We needed the same printed design as the one we had ordered a week prior.
+  Not only did they find the original order, but we also received it in time.
+  Excellent!"
+
+  Irene Roberts
+  Verified Buyer
+  "Customer service is always excellent and very quick turn around. Completely
+  delighted with the simplicity of the purchase and the speed of delivery."
+
+  Anne Wallace
+  Verified Buyer
+  "Put an order with this company and can only praise them for the very high
+  standard. Will definitely use them again and recommend them to everyone!" -->
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your
+      Name Here</a>.
+  </div>
+</body>
+
 </html>
