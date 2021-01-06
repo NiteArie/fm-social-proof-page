@@ -123,14 +123,56 @@ body {
     border-radius: 10px;
 }
 
+.container__main__second__comment:nth-child(1) {
+    top: 400px;
+    animation-name: to-top-first;
+    animation-duration: 800ms;
+    animation-timing-function: cubic-bezier(.17,.67,.57,1.18);
+    animation-fill-mode: forwards;
+    
+}
+
 .container__main__second__comment:nth-child(2) {
     top: 20px;
     left: 20px;
+
+    top: 400px;
+    animation-name: to-top-second;
+    animation-duration: 800ms;
+    animation-timing-function: cubic-bezier(.17,.67,.57,1.18);
+    animation-fill-mode: forwards;
+    animation-delay: 100ms;
 }
+
 
 .container__main__second__comment:nth-child(3) {
     top: 40px;
     left: 40px;
+
+    top: 400px;
+    animation-name: to-top-third;
+    animation-duration: 800ms;
+    animation-timing-function: cubic-bezier(.17,.67,.57,1.18);
+    animation-fill-mode: forwards;
+    animation-delay: 200ms;
+}
+
+@keyframes to-top-first {
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes to-top-second {
+    to {
+        top: 20px;
+    }
+}
+
+@keyframes to-top-third {
+    to {
+        top: 40px;
+    }
 }
 
 
