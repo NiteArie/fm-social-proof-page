@@ -1,5 +1,9 @@
 # Social Proof Page
 
+## Live
+
+Live View: [https://nitearie.github.io/fm-social-proof-page/](https://nitearie.github.io/fm-social-proof-page/)
+
 ## Preview
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
